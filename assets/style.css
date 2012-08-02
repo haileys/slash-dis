@@ -1,0 +1,118 @@
+* {
+    margin:0;
+    padding:0;
+}    
+body {
+    font-family:Verdana, sans-serif;
+    font-size:13px;
+}
+header {
+    width:960px;
+    margin:16px auto;
+    margin-bottom:0px;
+    padding:8px 16px;
+    background-color:#c8e7ff;
+    border-bottom:1px solid #84c9ff;
+    height:28px;
+}
+header h2 {
+    float:left;
+    font-size:24px;
+    font-weight:normal;
+}
+header h2 a {
+    color:#111111;
+    text-decoration:none;
+}
+header h2 a:hover {
+    text-decoration:underline;
+}
+header .auth {
+    float:right;
+    height:20px;
+    padding-top:6px;
+}
+section {
+    width:960px;
+    margin:0px auto;
+    padding:16px;
+    background-color:#f6f6f6;
+    border-bottom:1px solid #cccccc;
+}
+section h2 {
+    font-size:18px;
+    font-weight:normal;
+    margin-bottom:16px;
+}
+section p {
+    margin-bottom:16px;
+}
+section p.error {
+    color:#ff0000;
+}
+section p:last-child {
+    margin-bottom:0px;
+}
+ul.threads li {
+    list-style:none;
+    padding:8px 16px;
+    margin-bottom:16px;
+    background-color:#ffffff;
+    display:block;
+    border:1px solid #ffffff;
+}
+ul.threads li:hover {
+    border:1px dashed #cccccc;
+}
+ul.threads li .title {
+    margin-bottom:8px;
+    font-size:16px;
+}
+ul.threads li p {
+    display:block;
+    color:#7f7f7f;
+}
+ul.threads li p a {
+    color:#5f5f9f;
+}
+ul.threads li:last-child {
+    margin-bottom:0px;
+}
+ul.posts {
+    margin-bottom:16px;
+}
+ul.posts li {
+    list-style:none;
+    padding:8px 16px;
+    margin-bottom:16px;
+    background-color:#ffffff;
+    display:block;
+}
+ul.posts div.author {
+    padding-bottom:8px;
+    margin-bottom:8px;
+    font-size:14px;
+    border-bottom:1px solid #cccccc;
+}
+ul.posts li:last-child {
+    margin-bottom:0px;
+}
+textarea {
+    padding:8px;
+    font-size:13px;
+    display:block;
+    margin-bottom:16px;
+}
+label {
+    margin-bottom:4px;
+    display:block;
+}
+input {
+    margin-bottom:16px;
+    display:block;
+    font-size:13px;
+    padding:4px;
+}
+input[type=text], input[type=password] {
+    width:400px;
+}
