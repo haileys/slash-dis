@@ -1,0 +1,11 @@
+<%
+
+CONFIG = {
+    "secret_key" => "",
+    "database" => {
+        "host"      => "",
+        "user"      => "",
+        "database"  => ""
+    },
+    "cookie_name" => ""
+};
