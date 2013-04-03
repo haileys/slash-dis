@@ -6,7 +6,7 @@ Response.redirect("index.sl") if @current_user;
 
 if Request.method == "POST" {
     errors = [];
-    unless r{^[a-z0-9]{3,30}$}.match(Request["username"]) {
+    unless %r{^[a-z0-9]{3,30}$}.match(Request["username"]) {
         errors.push("username must be alphanumeric and between 3 and 30 characters");
     }
     unless Request["password"] == Request["confirm"] {

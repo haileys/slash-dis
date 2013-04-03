@@ -8,6 +8,12 @@ require("includes/session.sl");
 
 if @session["user_id"] {
     @current_user = DB.find("users", @session["user_id"]);
+    if @current_user["banned"].to_i != 0 {
+        @error = "You are banned";
+        require("templates/header.sl");
+        require("templates/footer.sl");
+        exit();
+    }
 }
 
 unless @session["csrf_token"] {
